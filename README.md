@@ -1,1 +1,6 @@
-# World-Legacy
+# 星遗物
+本游戏文本的主体可参考官方设定及故事书的翻译，网址如下：  
+[游戏王Master Guide 6：星遗物（1）](https://www.bilibili.com/read/cv5093881/)  
+星遗物故事的1~4均在专栏之中
+
+游戏的主体依旧不变。

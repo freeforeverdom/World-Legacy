@@ -1,0 +1,14 @@
+E:\Microsoft Visual Studio\2022\repos\boty\bin\Debug\boty.exe.config
+E:\Microsoft Visual Studio\2022\repos\boty\bin\Debug\boty.exe
+E:\Microsoft Visual Studio\2022\repos\boty\bin\Debug\boty.pdb
+E:\Microsoft Visual Studio\2022\repos\boty\obj\Debug\boty.csproj.AssemblyReference.cache
+E:\Microsoft Visual Studio\2022\repos\boty\obj\Debug\boty.csproj.SuggestedBindingRedirects.cache
+E:\Microsoft Visual Studio\2022\repos\boty\obj\Debug\boty.Form1.resources
+E:\Microsoft Visual Studio\2022\repos\boty\obj\Debug\boty.Properties.Resources.resources
+E:\Microsoft Visual Studio\2022\repos\boty\obj\Debug\boty.csproj.GenerateResource.cache
+E:\Microsoft Visual Studio\2022\repos\boty\obj\Debug\boty.csproj.CoreCompileInputs.cache
+E:\Microsoft Visual Studio\2022\repos\boty\obj\Debug\boty.exe
+E:\Microsoft Visual Studio\2022\repos\boty\obj\Debug\boty.pdb
+E:\Microsoft Visual Studio\2022\repos\boty\obj\Debug\boty.basic.resources
+E:\Microsoft Visual Studio\2022\repos\boty\obj\Debug\boty.son1.resources
+E:\Microsoft Visual Studio\2022\repos\boty\obj\Debug\boty.son2.resources

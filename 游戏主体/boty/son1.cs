@@ -13,7 +13,7 @@ namespace boty
 {
     public partial class son1 : Form
     {
-        private string connStr = @"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=E:\数据库\connectiontext1.accdb";
+        private string connStr = @"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=|DataDirectory|\connectiontext1.accdb";
         private OleDbConnection conn = null;
         private OleDbDataAdapter adapter = null;
         private DataTable dt = null;

@@ -16,5 +16,21 @@ namespace boty
         {
             InitializeComponent();
         }
+
+        private void son2_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+            Section1 section1 = new Section1();
+            section1.Show();
+        }
     }
 }

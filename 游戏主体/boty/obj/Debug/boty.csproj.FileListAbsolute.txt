@@ -26,3 +26,4 @@ C:\Users\freedomforever\Desktop\GITHUB\World-Legacy\游戏主体\boty\obj\Debug\
 C:\Users\freedomforever\Desktop\GITHUB\World-Legacy\游戏主体\boty\obj\Debug\boty.csproj.CoreCompileInputs.cache
 C:\Users\freedomforever\Desktop\GITHUB\World-Legacy\游戏主体\boty\obj\Debug\boty.exe
 C:\Users\freedomforever\Desktop\GITHUB\World-Legacy\游戏主体\boty\obj\Debug\boty.pdb
+C:\Users\freedomforever\Desktop\GITHUB\World-Legacy\游戏主体\boty\obj\Debug\boty.Section1.resources

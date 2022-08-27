@@ -47,6 +47,8 @@ namespace boty
             timer4.Start();
         }
 
+       
+
         private void son1_Load(object sender,EventArgs e)
         {
             Timer1.Interval = 3000;
@@ -57,6 +59,8 @@ namespace boty
             timer3.Enabled = true;
             timer3.Interval = 100;
             timer3.Enabled = true;
+
+            
         }
 
         private void timer1_Tick(object sender, EventArgs e)
@@ -515,6 +519,11 @@ namespace boty
                 + "%" + "\n" +"机械材料： " + material + "\n" + "机械零件： " + parts + "\n" + "机怪虫残骸： " + wreckage + "\n"
                 + "进度： " + sp1 + "%" + "\n" + "人口： " + people + "\n" + "陷阱： " + trap + "\n" + "制造间： " + house
                 + "\n";
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -14,10 +14,15 @@ namespace boty
     {
         son1 conponent1 = new son1();
         son2 conponent2 = new son2();
-        public basic()
+
+        private Form1 returnForm1 = null;
+
+        public basic(Form1 form1)
         {
             InitializeComponent();
+            this.returnForm1 = form1;
         }
+
 
         private void basic_Load(object sender, EventArgs e)
         {
@@ -48,6 +53,11 @@ namespace boty
         private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
         {
 
+        }
+
+        private void basic_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            this.returnForm1.Visible = true;
         }
     }
 }

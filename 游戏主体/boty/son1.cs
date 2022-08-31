@@ -47,6 +47,8 @@ namespace boty
             timer4.Start();
         }
 
+       
+
         private void son1_Load(object sender,EventArgs e)
         {
             Timer1.Interval = 3000;
@@ -57,6 +59,8 @@ namespace boty
             timer3.Enabled = true;
             timer3.Interval = 100;
             timer3.Enabled = true;
+
+            
         }
 
         private void timer1_Tick(object sender, EventArgs e)
@@ -199,6 +203,7 @@ namespace boty
             double ene = Convert.ToDouble(energy);
             double sp = Convert.ToDouble(speed);
             label4.Visible = false;
+            progressBar1.PerformStep();
             Timer1.Start();
             if (ene >= 0.2)
             {
@@ -502,19 +507,36 @@ namespace boty
             string material = dt.Rows[counts][4].ToString();
             string parts = dt.Rows[counts][5].ToString();
             string wreckage = dt.Rows[counts][6].ToString();
-            string speed = dt.Rows[counts][9].ToString();
-            double sp = Convert.ToDouble(speed);
-            sp = sp * 100;
-            string sp1 = Convert.ToString(sp);
             string people = dt.Rows[counts][10].ToString();
             string trap = dt.Rows[counts][11].ToString();
             string house = dt.Rows[counts][12].ToString();
             double energy1 = ene * 100;
             string energy2 = Convert.ToString(energy1);
-            richTextBox1.Text = "姓名： " + name + "\n" + "木材： " + wood + "\n" + "石材： " + stone + "\n" + "祭器能量： " + energy2
-                + "%" + "\n" +"机械材料： " + material + "\n" + "机械零件： " + parts + "\n" + "机怪虫残骸： " + wreckage + "\n"
-                + "进度： " + sp1 + "%" + "\n" + "人口： " + people + "\n" + "陷阱： " + trap + "\n" + "制造间： " + house
+            richTextBox1.Text = "木材： " + wood + "\n" + "石材： " + stone + "\n" + "祭器能量： " + energy2
+                + "%" + "\n" + "机械材料： " + material + "\n" + "机械零件： " + parts + "\n" + "机怪虫残骸： " + wreckage + "\n";
+            richTextBox2.Text = "人口： " + people + "\n" + "陷阱： " + trap + "\n" + "制造间： " + house
                 + "\n";
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void progressBar1_MouseHover(object sender, EventArgs e)
+        {
+            string speed = dt.Rows[counts][9].ToString();
+            double sp = Convert.ToDouble(speed);
+            sp = sp * 100;
+            string sp1 = Convert.ToString(sp);
+            ToolTip toolTip1 = new ToolTip();
+            // 设置显示样式
+            toolTip1.AutoPopDelay = 5000;//提示信息的可见时间
+            toolTip1.InitialDelay = 500;//事件触发多久后出现提示
+            toolTip1.ReshowDelay = 500;//指针从一个控件移向另一个控件时，经过多久才会显示下一个提示框
+            toolTip1.ShowAlways = true;//是否显示提示框
+            //  设置伴随的对象.
+            toolTip1.SetToolTip(progressBar1, sp1 + "%");
         }
     }
 }

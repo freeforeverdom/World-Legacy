@@ -53,12 +53,12 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("宋体", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label1.Font = new System.Drawing.Font("宋体", 18F);
             this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label1.Location = new System.Drawing.Point(51, 508);
+            this.label1.Location = new System.Drawing.Point(51, 535);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(90, 25);
+            this.label1.Size = new System.Drawing.Size(103, 30);
             this.label1.TabIndex = 0;
             this.label1.Text = "label1";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -66,12 +66,12 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("宋体", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label2.Font = new System.Drawing.Font("宋体", 18F);
             this.label2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label2.Location = new System.Drawing.Point(1209, 508);
+            this.label2.Location = new System.Drawing.Point(1199, 535);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(90, 25);
+            this.label2.Size = new System.Drawing.Size(103, 30);
             this.label2.TabIndex = 1;
             this.label2.Text = "label2";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;

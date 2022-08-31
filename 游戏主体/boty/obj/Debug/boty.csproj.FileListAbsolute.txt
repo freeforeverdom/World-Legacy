@@ -26,3 +26,17 @@ C:\Users\freedomforever\Desktop\GITHUB\World-Legacy\游戏主体\boty\obj\Debug\
 C:\Users\freedomforever\Desktop\GITHUB\World-Legacy\游戏主体\boty\obj\Debug\boty.csproj.CoreCompileInputs.cache
 C:\Users\freedomforever\Desktop\GITHUB\World-Legacy\游戏主体\boty\obj\Debug\boty.exe
 C:\Users\freedomforever\Desktop\GITHUB\World-Legacy\游戏主体\boty\obj\Debug\boty.pdb
+D:\学习\凯默训练营\World-Legacy\游戏主体\boty\bin\Debug\boty.exe.config
+D:\学习\凯默训练营\World-Legacy\游戏主体\boty\bin\Debug\boty.exe
+D:\学习\凯默训练营\World-Legacy\游戏主体\boty\bin\Debug\boty.pdb
+D:\学习\凯默训练营\World-Legacy\游戏主体\boty\obj\Debug\boty.csproj.AssemblyReference.cache
+D:\学习\凯默训练营\World-Legacy\游戏主体\boty\obj\Debug\boty.csproj.SuggestedBindingRedirects.cache
+D:\学习\凯默训练营\World-Legacy\游戏主体\boty\obj\Debug\boty.basic.resources
+D:\学习\凯默训练营\World-Legacy\游戏主体\boty\obj\Debug\boty.Form1.resources
+D:\学习\凯默训练营\World-Legacy\游戏主体\boty\obj\Debug\boty.Properties.Resources.resources
+D:\学习\凯默训练营\World-Legacy\游戏主体\boty\obj\Debug\boty.son1.resources
+D:\学习\凯默训练营\World-Legacy\游戏主体\boty\obj\Debug\boty.son2.resources
+D:\学习\凯默训练营\World-Legacy\游戏主体\boty\obj\Debug\boty.csproj.GenerateResource.cache
+D:\学习\凯默训练营\World-Legacy\游戏主体\boty\obj\Debug\boty.csproj.CoreCompileInputs.cache
+D:\学习\凯默训练营\World-Legacy\游戏主体\boty\obj\Debug\boty.exe
+D:\学习\凯默训练营\World-Legacy\游戏主体\boty\obj\Debug\boty.pdb

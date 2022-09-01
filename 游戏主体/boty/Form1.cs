@@ -9,13 +9,14 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.OleDb;
 using System.Diagnostics;
+using System.Media;
 
 namespace boty
 {
     public partial class Form1 : Form
     {
         private string connStr = @"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=|DataDirectory|\connectiontext1.accdb";
-
+        static SoundPlayer bgm = new SoundPlayer("The World Legacy.wav");
         private OleDbConnection conn = null;
         private OleDbDataAdapter adapter = null;
         private DataTable dt = null;
@@ -27,7 +28,8 @@ namespace boty
             InitializeComponent();
             conn = new OleDbConnection(connStr);
             conn.Open();
-            
+            bgm.PlayLooping();
+
             conn.Close();
         }
 
@@ -54,6 +56,7 @@ namespace boty
             conn.Close();
             basic basic1=new basic(this);
             basic1.Show();
+            bgm.Stop();
             this.Hide();
         }
 
@@ -155,7 +158,13 @@ namespace boty
             conn.Close();
             basic basic1 = new basic(this);
             basic1.Show();
+            bgm.Stop();
             this.Hide();
+        }
+
+        private void Form1_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            bgm.Stop();
         }
     }
 }

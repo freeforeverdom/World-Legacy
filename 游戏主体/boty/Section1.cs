@@ -5,6 +5,7 @@ using System.Data;
 using System.Data.OleDb;
 using System.Drawing;
 using System.Linq;
+using System.Media;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -15,6 +16,8 @@ namespace boty
     {
         //初始化
         private string connStr = @"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=|DataDirectory|\connectiontext1.accdb";
+        static SoundPlayer bgm = new SoundPlayer("星光下.wav");
+        static SoundPlayer bgm1 = new SoundPlayer("Star Round.wav");
         private OleDbConnection conn = null;
         private OleDbDataAdapter adapter = null;
         private DataTable dt = null;
@@ -27,6 +30,7 @@ namespace boty
 
         private void Section1_Load(object sender, EventArgs e)
         {
+            bgm.PlayLooping();
             //连接数据库，并把数据表放在内存里
             conn = new OleDbConnection(connStr);
             conn.Open();
@@ -236,6 +240,12 @@ namespace boty
         private void label5_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void Section1_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            bgm.Stop();
+            bgm1.PlayLooping();
         }
     }
 }

@@ -209,6 +209,7 @@
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Section1";
             this.Text = "Section1";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Section1_FormClosing);
             this.Load += new System.EventHandler(this.Section1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.PictureLeft1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.PictureLeft2)).EndInit();

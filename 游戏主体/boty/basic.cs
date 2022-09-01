@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Media;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -14,6 +15,8 @@ namespace boty
     {
         son1 conponent1 = new son1();
         son2 conponent2 = new son2();
+        static SoundPlayer bgm = new SoundPlayer("The World Legacy.wav");
+        static SoundPlayer bgm1 = new SoundPlayer("Star Round.wav");
 
         private Form1 returnForm1 = null;
 
@@ -37,6 +40,7 @@ namespace boty
             conponent1.MdiParent = this;
             conponent1.WindowState = FormWindowState.Maximized;
             conponent1.Opacity = 1;
+            bgm1.PlayLooping();
         }
 
         private void 世界地图ToolStripMenuItem_Click(object sender, EventArgs e)
@@ -48,6 +52,7 @@ namespace boty
             conponent2.MdiParent = this;
             conponent2.WindowState = FormWindowState.Maximized;
             conponent2.Opacity = 1;
+            bgm1.PlayLooping();
         }
 
         private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
@@ -58,6 +63,8 @@ namespace boty
         private void basic_FormClosing(object sender, FormClosingEventArgs e)
         {
             this.returnForm1.Visible = true;
+            bgm1.Stop();
+            bgm.PlayLooping();
         }
     }
 }

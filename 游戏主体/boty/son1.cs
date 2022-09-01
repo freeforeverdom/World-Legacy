@@ -9,6 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Media;
+using System.Security.Cryptography;
 
 namespace boty
 {
@@ -23,6 +24,7 @@ namespace boty
         private int coun;
         public string content1;
         int i;
+        int chapter1 = 0;
         public son1()
         {
             InitializeComponent();
@@ -204,9 +206,10 @@ namespace boty
             string speed = dt.Rows[counts][9].ToString();
             double ene = Convert.ToDouble(energy);
             double sp = Convert.ToDouble(speed);
+            double uid = 1;
             label4.Visible = false;
             Timer1.Start();
-            if (ene >= 0.2)
+            if (ene >= 0.2 && sp < uid)
             {
                 ene = ene - 0.2;
                 sp = sp + 0.05;
@@ -522,6 +525,7 @@ namespace boty
             sp = sp * 100;
             string sp1 = Convert.ToString(sp);
             int u = (int)(sp / 4.0);
+            int sure = 25;
             if (i == u)
             { 
             
@@ -536,6 +540,12 @@ namespace boty
                     progressBar1.PerformStep();
                     j++;
                 }
+            }
+            if (u == sure && chapter1 == 0)
+            {
+                chapter1 = 1;
+                MessageBox.Show("已开放第二节剧情！");
+                
             }
         }
 

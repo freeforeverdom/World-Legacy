@@ -21,6 +21,7 @@ namespace boty
         private int counts;
         private int coun;
         public string content1;
+        int i;
         public son1()
         {
             InitializeComponent();
@@ -203,7 +204,6 @@ namespace boty
             double ene = Convert.ToDouble(energy);
             double sp = Convert.ToDouble(speed);
             label4.Visible = false;
-            progressBar1.PerformStep();
             Timer1.Start();
             if (ene >= 0.2)
             {
@@ -516,6 +516,26 @@ namespace boty
                 + "%" + "\n" + "机械材料： " + material + "\n" + "机械零件： " + parts + "\n" + "机怪虫残骸： " + wreckage + "\n";
             richTextBox2.Text = "人口： " + people + "\n" + "陷阱： " + trap + "\n" + "制造间： " + house
                 + "\n";
+            string speed = dt.Rows[counts][9].ToString();
+            double sp = Convert.ToDouble(speed);
+            sp = sp * 100;
+            string sp1 = Convert.ToString(sp);
+            int u = (int)(sp / 4.0);
+            if (i == u)
+            { 
+            
+            }
+            else 
+            {
+                i = (int)(sp / 4.0);
+                int j = 0;
+                progressBar1.Value = 0;
+                while (j < i)
+                {
+                    progressBar1.PerformStep();
+                    j++;
+                }
+            }
         }
 
         private void pictureBox2_Click(object sender, EventArgs e)

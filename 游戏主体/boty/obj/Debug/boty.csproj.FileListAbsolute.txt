@@ -1,76 +1,15 @@
-E:\Microsoft Visual Studio\2022\repos\boty\bin\Debug\boty.exe.config
-E:\Microsoft Visual Studio\2022\repos\boty\bin\Debug\boty.exe
-E:\Microsoft Visual Studio\2022\repos\boty\bin\Debug\boty.pdb
-E:\Microsoft Visual Studio\2022\repos\boty\obj\Debug\boty.csproj.AssemblyReference.cache
-E:\Microsoft Visual Studio\2022\repos\boty\obj\Debug\boty.csproj.SuggestedBindingRedirects.cache
-E:\Microsoft Visual Studio\2022\repos\boty\obj\Debug\boty.Form1.resources
-E:\Microsoft Visual Studio\2022\repos\boty\obj\Debug\boty.Properties.Resources.resources
-E:\Microsoft Visual Studio\2022\repos\boty\obj\Debug\boty.csproj.GenerateResource.cache
-E:\Microsoft Visual Studio\2022\repos\boty\obj\Debug\boty.csproj.CoreCompileInputs.cache
-E:\Microsoft Visual Studio\2022\repos\boty\obj\Debug\boty.exe
-E:\Microsoft Visual Studio\2022\repos\boty\obj\Debug\boty.pdb
-E:\Microsoft Visual Studio\2022\repos\boty\obj\Debug\boty.basic.resources
-E:\Microsoft Visual Studio\2022\repos\boty\obj\Debug\boty.son1.resources
-E:\Microsoft Visual Studio\2022\repos\boty\obj\Debug\boty.son2.resources
-C:\Users\freedomforever\Desktop\GITHUB\World-Legacy\游戏主体\boty\bin\Debug\boty.exe.config
-C:\Users\freedomforever\Desktop\GITHUB\World-Legacy\游戏主体\boty\bin\Debug\boty.exe
-C:\Users\freedomforever\Desktop\GITHUB\World-Legacy\游戏主体\boty\bin\Debug\boty.pdb
-C:\Users\freedomforever\Desktop\GITHUB\World-Legacy\游戏主体\boty\obj\Debug\boty.csproj.AssemblyReference.cache
-C:\Users\freedomforever\Desktop\GITHUB\World-Legacy\游戏主体\boty\obj\Debug\boty.csproj.SuggestedBindingRedirects.cache
-C:\Users\freedomforever\Desktop\GITHUB\World-Legacy\游戏主体\boty\obj\Debug\boty.basic.resources
-C:\Users\freedomforever\Desktop\GITHUB\World-Legacy\游戏主体\boty\obj\Debug\boty.Form1.resources
-C:\Users\freedomforever\Desktop\GITHUB\World-Legacy\游戏主体\boty\obj\Debug\boty.Properties.Resources.resources
-C:\Users\freedomforever\Desktop\GITHUB\World-Legacy\游戏主体\boty\obj\Debug\boty.son1.resources
-C:\Users\freedomforever\Desktop\GITHUB\World-Legacy\游戏主体\boty\obj\Debug\boty.son2.resources
-C:\Users\freedomforever\Desktop\GITHUB\World-Legacy\游戏主体\boty\obj\Debug\boty.csproj.GenerateResource.cache
-C:\Users\freedomforever\Desktop\GITHUB\World-Legacy\游戏主体\boty\obj\Debug\boty.csproj.CoreCompileInputs.cache
-C:\Users\freedomforever\Desktop\GITHUB\World-Legacy\游戏主体\boty\obj\Debug\boty.exe
-C:\Users\freedomforever\Desktop\GITHUB\World-Legacy\游戏主体\boty\obj\Debug\boty.pdb
-<<<<<<< HEAD
-D:\学习\凯默训练营\World-Legacy\游戏主体\boty\bin\Debug\boty.exe.config
-D:\学习\凯默训练营\World-Legacy\游戏主体\boty\bin\Debug\boty.exe
-D:\学习\凯默训练营\World-Legacy\游戏主体\boty\bin\Debug\boty.pdb
-D:\学习\凯默训练营\World-Legacy\游戏主体\boty\obj\Debug\boty.csproj.AssemblyReference.cache
-D:\学习\凯默训练营\World-Legacy\游戏主体\boty\obj\Debug\boty.csproj.SuggestedBindingRedirects.cache
-D:\学习\凯默训练营\World-Legacy\游戏主体\boty\obj\Debug\boty.basic.resources
-D:\学习\凯默训练营\World-Legacy\游戏主体\boty\obj\Debug\boty.Form1.resources
-D:\学习\凯默训练营\World-Legacy\游戏主体\boty\obj\Debug\boty.Properties.Resources.resources
-D:\学习\凯默训练营\World-Legacy\游戏主体\boty\obj\Debug\boty.son1.resources
-D:\学习\凯默训练营\World-Legacy\游戏主体\boty\obj\Debug\boty.son2.resources
-D:\学习\凯默训练营\World-Legacy\游戏主体\boty\obj\Debug\boty.csproj.GenerateResource.cache
-D:\学习\凯默训练营\World-Legacy\游戏主体\boty\obj\Debug\boty.csproj.CoreCompileInputs.cache
-D:\学习\凯默训练营\World-Legacy\游戏主体\boty\obj\Debug\boty.exe
-D:\学习\凯默训练营\World-Legacy\游戏主体\boty\obj\Debug\boty.pdb
-=======
-C:\Users\freedomforever\Desktop\GITHUB\World-Legacy\游戏主体\boty\obj\Debug\boty.Section1.resources
-D:\Gitrepos\project\World-Legacy\游戏主体\boty\bin\Debug\boty.exe.config
-D:\Gitrepos\project\World-Legacy\游戏主体\boty\bin\Debug\boty.exe
-D:\Gitrepos\project\World-Legacy\游戏主体\boty\bin\Debug\boty.pdb
-D:\Gitrepos\project\World-Legacy\游戏主体\boty\obj\Debug\boty.csproj.AssemblyReference.cache
-D:\Gitrepos\project\World-Legacy\游戏主体\boty\obj\Debug\boty.csproj.SuggestedBindingRedirects.cache
-D:\Gitrepos\project\World-Legacy\游戏主体\boty\obj\Debug\boty.basic.resources
-D:\Gitrepos\project\World-Legacy\游戏主体\boty\obj\Debug\boty.Form1.resources
-D:\Gitrepos\project\World-Legacy\游戏主体\boty\obj\Debug\boty.Properties.Resources.resources
-D:\Gitrepos\project\World-Legacy\游戏主体\boty\obj\Debug\boty.Section1.resources
-D:\Gitrepos\project\World-Legacy\游戏主体\boty\obj\Debug\boty.son1.resources
-D:\Gitrepos\project\World-Legacy\游戏主体\boty\obj\Debug\boty.son2.resources
-D:\Gitrepos\project\World-Legacy\游戏主体\boty\obj\Debug\boty.csproj.GenerateResource.cache
-D:\Gitrepos\project\World-Legacy\游戏主体\boty\obj\Debug\boty.csproj.CoreCompileInputs.cache
-D:\Gitrepos\project\World-Legacy\游戏主体\boty\obj\Debug\boty.exe
-D:\Gitrepos\project\World-Legacy\游戏主体\boty\obj\Debug\boty.pdb
-E:\学习\凯默训练营\GitHub\最终\World-Legacy\游戏主体\boty1\World-Legacy-1\游戏主体\boty\obj\Debug\boty.csproj.AssemblyReference.cache
-E:\学习\凯默训练营\GitHub\最终\World-Legacy\游戏主体\boty1\World-Legacy-1\游戏主体\boty\obj\Debug\boty.csproj.SuggestedBindingRedirects.cache
-E:\学习\凯默训练营\GitHub\最终\World-Legacy\游戏主体\boty1\World-Legacy-1\游戏主体\boty\obj\Debug\boty.basic.resources
-E:\学习\凯默训练营\GitHub\最终\World-Legacy\游戏主体\boty1\World-Legacy-1\游戏主体\boty\obj\Debug\boty.Form1.resources
-E:\学习\凯默训练营\GitHub\最终\World-Legacy\游戏主体\boty1\World-Legacy-1\游戏主体\boty\obj\Debug\boty.Properties.Resources.resources
-E:\学习\凯默训练营\GitHub\最终\World-Legacy\游戏主体\boty1\World-Legacy-1\游戏主体\boty\obj\Debug\boty.Section1.resources
-E:\学习\凯默训练营\GitHub\最终\World-Legacy\游戏主体\boty1\World-Legacy-1\游戏主体\boty\obj\Debug\boty.son1.resources
-E:\学习\凯默训练营\GitHub\最终\World-Legacy\游戏主体\boty1\World-Legacy-1\游戏主体\boty\obj\Debug\boty.son2.resources
-E:\学习\凯默训练营\GitHub\最终\World-Legacy\游戏主体\boty1\World-Legacy-1\游戏主体\boty\obj\Debug\boty.csproj.GenerateResource.cache
-E:\学习\凯默训练营\GitHub\最终\World-Legacy\游戏主体\boty1\World-Legacy-1\游戏主体\boty\obj\Debug\boty.csproj.CoreCompileInputs.cache
-E:\学习\凯默训练营\GitHub\最终\World-Legacy\游戏主体\boty1\World-Legacy-1\游戏主体\boty\obj\Debug\boty.exe
-E:\学习\凯默训练营\GitHub\最终\World-Legacy\游戏主体\boty1\World-Legacy-1\游戏主体\boty\obj\Debug\boty.pdb
-E:\学习\凯默训练营\GitHub\最终\World-Legacy\游戏主体\boty1\World-Legacy-1\游戏主体\boty\bin\Debug\boty.exe.config
-E:\学习\凯默训练营\GitHub\最终\World-Legacy\游戏主体\boty1\World-Legacy-1\游戏主体\boty\bin\Debug\boty.exe
-E:\学习\凯默训练营\GitHub\最终\World-Legacy\游戏主体\boty1\World-Legacy-1\游戏主体\boty\bin\Debug\boty.pdb
->>>>>>> b9a152978d9ddb091d992c89fc2a5fe1e01b2bf4
+E:\学习\凯默训练营\GitHub\最终\World-Legacy\游戏主体\boty1\World-Legacy\游戏主体\boty\bin\Debug\boty.exe.config
+E:\学习\凯默训练营\GitHub\最终\World-Legacy\游戏主体\boty1\World-Legacy\游戏主体\boty\bin\Debug\boty.exe
+E:\学习\凯默训练营\GitHub\最终\World-Legacy\游戏主体\boty1\World-Legacy\游戏主体\boty\bin\Debug\boty.pdb
+E:\学习\凯默训练营\GitHub\最终\World-Legacy\游戏主体\boty1\World-Legacy\游戏主体\boty\obj\Debug\boty.csproj.AssemblyReference.cache
+E:\学习\凯默训练营\GitHub\最终\World-Legacy\游戏主体\boty1\World-Legacy\游戏主体\boty\obj\Debug\boty.csproj.SuggestedBindingRedirects.cache
+E:\学习\凯默训练营\GitHub\最终\World-Legacy\游戏主体\boty1\World-Legacy\游戏主体\boty\obj\Debug\boty.basic.resources
+E:\学习\凯默训练营\GitHub\最终\World-Legacy\游戏主体\boty1\World-Legacy\游戏主体\boty\obj\Debug\boty.Form1.resources
+E:\学习\凯默训练营\GitHub\最终\World-Legacy\游戏主体\boty1\World-Legacy\游戏主体\boty\obj\Debug\boty.Properties.Resources.resources
+E:\学习\凯默训练营\GitHub\最终\World-Legacy\游戏主体\boty1\World-Legacy\游戏主体\boty\obj\Debug\boty.Section1.resources
+E:\学习\凯默训练营\GitHub\最终\World-Legacy\游戏主体\boty1\World-Legacy\游戏主体\boty\obj\Debug\boty.son1.resources
+E:\学习\凯默训练营\GitHub\最终\World-Legacy\游戏主体\boty1\World-Legacy\游戏主体\boty\obj\Debug\boty.son2.resources
+E:\学习\凯默训练营\GitHub\最终\World-Legacy\游戏主体\boty1\World-Legacy\游戏主体\boty\obj\Debug\boty.csproj.GenerateResource.cache
+E:\学习\凯默训练营\GitHub\最终\World-Legacy\游戏主体\boty1\World-Legacy\游戏主体\boty\obj\Debug\boty.csproj.CoreCompileInputs.cache
+E:\学习\凯默训练营\GitHub\最终\World-Legacy\游戏主体\boty1\World-Legacy\游戏主体\boty\obj\Debug\boty.exe
+E:\学习\凯默训练营\GitHub\最终\World-Legacy\游戏主体\boty1\World-Legacy\游戏主体\boty\obj\Debug\boty.pdb

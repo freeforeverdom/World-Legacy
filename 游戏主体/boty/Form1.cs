@@ -135,5 +135,27 @@ namespace boty
             if(this.Visible==true)
             conn.Open();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            OleDbDataAdapter oleDapAdapter;
+            DataSet ds = new DataSet();
+            string max = "select * from score where id = (select max(id) from score)";
+            oleDapAdapter = new OleDbDataAdapter(max, conn);
+            oleDapAdapter.Fill(ds);
+            string content = ds.Tables[0].Rows[0][0].ToString();
+            nextcounts = Convert.ToInt32(content) + 1;
+            content1 = nextcounts + "";
+            ds.Reset();
+
+            adapter = new OleDbDataAdapter("Select*from score", conn);
+            var cmd = new OleDbCommandBuilder(adapter);
+            dt = new DataTable();
+            adapter.Fill(dt);
+            conn.Close();
+            basic basic1 = new basic(this);
+            basic1.Show();
+            this.Hide();
+        }
     }
 }

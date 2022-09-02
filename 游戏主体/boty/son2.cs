@@ -24,25 +24,8 @@ namespace boty
         public son2()
         {
             InitializeComponent();
-            timer1.Start();
-            conn = new OleDbConnection(connStr);
-            conn.Open();
-            OleDbDataAdapter oleDapAdapter;
-            string max = "select * from score where ID = (select max(ID) from score)";
-            oleDapAdapter = new OleDbDataAdapter(max, conn);
-            oleDapAdapter.Fill(ds);
-            //打开表最大一行并储存在表内
-            string content = ds.Tables[0].Rows[0][0].ToString();
-            counts = Convert.ToInt32(content) - 1;
-            coun = counts + 1;
-            //读取最大一行的序号
-            adapter = new OleDbDataAdapter("Select*from score", conn);
-            var cmd = new OleDbCommandBuilder(adapter);
-            dt = new DataTable();
-            adapter.Fill(dt);
-            //读取所有行
-            label2.Visible = false;
-            pictureBox2.Visible = false;
+
+            
         }
 
         private void son2_Load(object sender, EventArgs e)
@@ -67,8 +50,26 @@ namespace boty
             section2.Show();
         }
 
-        private void timer1_Tick(object sender, EventArgs e)
+        private void son2_VisibleChanged(object sender, EventArgs e)
         {
+            conn = new OleDbConnection(connStr);
+            conn.Open();
+            OleDbDataAdapter oleDapAdapter;
+            string max = "select * from score where ID = (select max(ID) from score)";
+            oleDapAdapter = new OleDbDataAdapter(max, conn);
+            oleDapAdapter.Fill(ds);
+            //打开表最大一行并储存在表内
+            string content = ds.Tables[0].Rows[0][0].ToString();
+            counts = Convert.ToInt32(content) - 1;
+            coun = counts + 1;
+            //读取最大一行的序号
+            adapter = new OleDbDataAdapter("Select*from score", conn);
+            var cmd = new OleDbCommandBuilder(adapter);
+            dt = new DataTable();
+            adapter.Fill(dt);
+            //读取所有行
+            label2.Visible = false;
+            pictureBox2.Visible = false;
             string speed = dt.Rows[counts][9].ToString();
             double sp = Convert.ToDouble(speed);
             sp = sp * 100;

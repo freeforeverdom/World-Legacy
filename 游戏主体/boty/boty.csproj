@@ -103,6 +103,9 @@
     <EmbeddedResource Include="Section1.resx">
       <DependentUpon>Section1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Section2.resx">
+      <DependentUpon>Section2.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="son1.resx">
       <DependentUpon>son1.cs</DependentUpon>
     </EmbeddedResource>
